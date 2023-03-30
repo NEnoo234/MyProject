@@ -1,0 +1,32 @@
+#floating__nav {
+  display: none;
+}
+@media screen and(max-width:1024px) {
+  #floating__nav {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    left: 50%;
+    bottom: 3rem;
+    transform: translateX(-50%);
+    z-index: 999;
+  }
+  .scrollspy {
+    display: flex;
+    gap: 1rem;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 0.8rem 1.5rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(28px);
+  }
+  #floating__nav a {
+    padding: 0.6rem;
+    border-radius: 50%;
+    font-size: 1.3rem;
+    color: #fff;
+    display: grid;
+  }
+  #floating__nav li.active {
+    background: var(--color-primary);
+  }
+}
