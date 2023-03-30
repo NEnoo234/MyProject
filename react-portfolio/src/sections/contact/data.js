@@ -1,6 +1,7 @@
 import { HiOutlineMail } from "react-icons/hi";
 import { RiMessengerLine } from "react-icons/ri";
 import { FaWhatsapp } from "react-icons/fa";
+import { GiAbbotMeeple } from "react-icons/gi";
 
 const data = [
   {
